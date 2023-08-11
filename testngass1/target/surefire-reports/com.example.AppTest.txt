@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.example.AppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.144 s - in com.example.AppTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.509 s <<< FAILURE! - in com.example.AppTest
+testSelenium(com.example.AppTest)  Time elapsed: 0.075 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /home/coder/project/workspace/testngass1/C:\Testing\chromedriver.exe
+	at com.example.AppTest.testSelenium(AppTest.java:14)
+
